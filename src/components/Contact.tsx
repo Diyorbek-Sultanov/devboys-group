@@ -10,14 +10,14 @@ const Contact: FC = () => {
 				<span className='text-blue-400'>Us</span>
 			</Heading>
 			<div className='grid sm:grid-cols-1 lg:grid-cols-contactCols gap-5'>
-				<div>
-					<div>
-						<h2>Email us</h2>
-						<p>info@devboys.com</p>
+				<div className='xs:mb-5'>
+					<div className='mb-5'>
+						<h2 className='text-blue-400 text-xl'>Email us</h2>
+						<p className='text-2xl'>info@devboys.com</p>
 					</div>
 					<div>
-						<h2>Social links</h2>
-						<p>info@devboys.com</p>
+						<h2 className='text-blue-400 text-xl'>Social links</h2>
+						<p className='text-2xl'>info@devboys.com</p>
 					</div>
 				</div>
 				<div className='bg-white rounded-lg'>

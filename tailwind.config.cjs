@@ -13,7 +13,10 @@ module.exports = {
 				swiperNav: '-50%'
 			},
 			gridTemplateColumns: {
-				contactCols: '500px 450px'
+				contactCols: '430px 600px'
+			},
+			screens: {
+				xs: '320px'
 			}
 		}
 	},

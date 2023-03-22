@@ -4,7 +4,7 @@ import Input from './ui/input/Input'
 
 const Form: FC = () => {
 	return (
-		<form className='py-10 px-5'>
+		<form className='py-12 px-5'>
 			<Input type={'email'} label={'Email'} />
 			<Input label={'Name'} />
 			<Input label={'Message'} />

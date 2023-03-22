@@ -1,8 +1,8 @@
-import SwiperNav from './SwiperNav'
 import { FC } from 'react'
 import { Navigation, Autoplay } from 'swiper'
 import 'swiper/css'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import SwiperNav from './SwiperNav'
 
 const Slider: FC = () => {
 	return (
@@ -15,6 +15,14 @@ const Slider: FC = () => {
 				clickable: true
 			}}
 			breakpoints={{
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 20
+				},
+				390: {
+					slidesPerView: 1,
+					spaceBetween: 20
+				},
 				640: {
 					slidesPerView: 1,
 					spaceBetween: 20

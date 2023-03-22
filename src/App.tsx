@@ -9,9 +9,9 @@ import Services from './components/Services'
 const App: FC = () => {
 	return (
 		<div className='dark'>
-			<div className='container mx-auto px-5'>
+			<Header />
+			<div className='container mx-auto xs:px-2 sm:px-0 md:px-4 lg:px-5'>
 				<div className='flex flex-col min-h-screen'>
-					<Header />
 					<main className='flex-grow text-white'>
 						<Main />
 						<Services />
